@@ -1,0 +1,77 @@
+.image.fit img {
+	width: 100%;
+	height: auto;
+}
+.box .image.fit {
+    margin: 0;
+    border-radius: 0;
+}
+.box .image.fit img {
+    border-radius: 0;
+}
+
+.image {
+    border-radius: 2px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+    .image img {
+        border-radius: 2px;
+        display: block;
+    }
+
+    .image.left, .image.right {
+        max-width: 40%;
+    }
+
+        .image.left img, .image.right img {
+            width: 100%;
+        }
+
+    .image.left {
+        float: left;
+        margin: 0 1.5rem 1rem 0;
+        top: 0.25rem;
+    }
+
+    .image.right {
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+        top: 0.25rem;
+    }
+
+    .image.fit {
+        display: block;
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+
+        .image.fit img {
+            width: 100%;
+        }
+
+    .image.main {
+        display: block;
+        margin: 0 0 3rem 0;
+        width: 100%;
+    }
+
+        .image.main img {
+            width: 100%;
+        }
+
+        .gallery .image {
+			background: #FFF;
+			padding: 1rem;
+		}
+
+			.gallery .image.fit {
+				margin: 0;
+			}
+
+            image.fit img {
+                width: 100%;
+                height: auto;
+            }

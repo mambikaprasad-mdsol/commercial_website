@@ -55,8 +55,9 @@
 }
 h1 {
   font-size: 36px; /* Larger font size for heading */
-  margin-bottom: 10px; /* Add some spacing between heading and description */
-  margin-top: 0; /* Remove default margin for heading */
+  margin-bottom: 4px; /* Add some spacing between heading and description */
+  margin-top: 0px; /* Remove default margin for heading */
+  margin-left: 15px;
 }
 p {
   font-size: 18px; /* Smaller font size for description */
